@@ -8,26 +8,36 @@
 
 
 
-body{
+.UpperPart{
+	display: flex;
+	flex-direction: column;
 }
 
-
-.background{
-	background: url(../../images/organic-food-background-food-photography-different-fruits-vegetables-isolated-white-copy-space-high-resolution-68276841.jpg) no-repeat;
-	background-size: 1367px 700px;
-	min-height: 684px;
-}
 
 
 .mainTitle{
+	text-align: right;
+	width: 250px;
+	font-size: 60px;
 	font-family: Alhurra;
-	font-weight: 100;
-	font-size: 140px;
-	text-align: center;
-	position: relative;
-	top:50px;
+	margin: 25px 60px 10px 0;
 }
 
+.mainTitle a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.menu{
+	float left;
+	position: relative;
+	left: 415px;
+	background: #333;
+	width: 500px;
+	border-radius: 10px 0px;
+}
 
 .menu a{
 	text-decoration: none;
@@ -36,14 +46,6 @@ body{
 	padding-bottom: 15px;
 }
 
-nav{
-	position: relative;
-	top:100px;
-	left: 415px;
-	background: #333;
-	width: 500px;
-	border-radius: 10px 0px;
-}
 
 .menu > ul{/*direct child but class child will change all children with same type*/
 	margin: 0 auto;
