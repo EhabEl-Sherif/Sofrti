@@ -1,0 +1,90 @@
+*{
+	
+    -webkit-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+
+
+body{
+}
+
+
+.background{
+	background: url(../../images/organic-food-background-food-photography-different-fruits-vegetables-isolated-white-copy-space-high-resolution-68276841.jpg) no-repeat;
+	background-size: 1367px 700px;
+	min-height: 684px;
+}
+
+
+.mainTitle{
+	font-family: Alhurra;
+	font-weight: 100;
+	font-size: 140px;
+	text-align: center;
+	position: relative;
+	top:50px;
+}
+
+
+.menu a{
+	text-decoration: none;
+	color: aliceblue;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+nav{
+	position: relative;
+	top:100px;
+	left: 415px;
+	background: #333;
+	width: 500px;
+	border-radius: 10px 0px;
+}
+
+.menu > ul{/*direct child but class child will change all children with same type*/
+	margin: 0 auto;
+	padding: 0;
+}
+
+.menu ul li{
+	display: block;
+	float: right;
+	position: relative;
+}
+
+.menu ul a{
+	display: block;
+	float: left;
+	text-align: center;
+	width: 100px;
+}
+
+.menu ul a:hover{
+	background: #888;
+	border-radius: 10px 0px;
+}
+
+
+
+
+
+/*Clearfix Class*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

@@ -1,0 +1,47 @@
+body{
+	margin: 25px 200px;
+	background: url(../../../BACKUP/Photoshop/smoke-6.jpg);
+	overflow-y: scroll;
+	max-height: 200px;
+	background-repeat:repeat-y;
+}
+
+
+/*Upper Part*/
+
+.logo{
+	text-align:right;
+	margin-bottom: 50px;
+	font-family: cairo;
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.logo a{
+	text-decoration: none;
+	color:aliceblue;
+}
+
+.logo a:hover{
+	text-shadow: 3px 2px 3px #945;
+}
+
+
+/*Main Part*/
+
+.mainBody{
+	background: white;
+	width: inherit;
+	height: 10000px;
+	box-shadow: -5px 5px 5px #333,5px 5px 5px #333;
+}
+
+.mainBody nav{
+	padding-right: 25px;
+	padding-top: 25px;
+	position: fixed;
+	left: 923.5px;
+	text-align: right;
+	background-color: #333;
+	width: 200px;
+}
