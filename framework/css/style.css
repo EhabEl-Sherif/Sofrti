@@ -1,5 +1,4 @@
 *{
-	
     -webkit-box-sizing:border-box;
     -ms-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -7,22 +6,31 @@
 }
 
 
+body{
+	background-image: url(../../images/tomatoes-vegetables-red-delicious-68133.jpeg);
+	background-size: cover;
+}
 
-.UpperPart{
-	display: flex;
-	flex-direction: column;
+
+
+.bodyback{
+	margin:80px 200px;
+	background-color: rgb(200,200,200);
+	box-shadow: 5px 0px 30px 5px #333,-5px -5px 30px 5px #333;
+	border-radius: 10px 10px 0px 0px;
 }
 
 
 
 .mainTitle{
-	text-align: right;
+	margin:70px 368px 0px ;
 	width: 250px;
 	font-size: 60px;
+	text-align: center;
 	font-family: Alhurra;
-	margin: 25px 60px 10px 0;
+	position: relative;
+	top: 20px;
 }
-
 .mainTitle a{
 	text-decoration: none;
 	color: black;
@@ -31,46 +39,58 @@
 
 
 .menu{
-	float left;
-	position: relative;
-	left: 415px;
+	margin:35px 16px 0px 16px;
+	border-color: aqua;
 	background: #333;
-	width: 500px;
-	border-radius: 10px 0px;
+	width: 900px;
+	border-radius: 10px 10px 0px 0px;
+	
 }
-
 .menu a{
 	text-decoration: none;
 	color: aliceblue;
 	padding-top:15px;
 	padding-bottom: 15px;
 }
-
-
 .menu > ul{/*direct child but class child will change all children with same type*/
 	margin: 0 auto;
 	padding: 0;
 }
-
 .menu ul li{
 	display: block;
 	float: right;
 	position: relative;
 }
-
 .menu ul a{
 	display: block;
 	float: left;
 	text-align: center;
 	width: 100px;
 }
-
 .menu ul a:hover{
 	background: #888;
-	border-radius: 10px 0px;
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: 5px;
+	border-color: red;
 }
 
 
+
+hr{
+	border-width: 1px;
+	border-color: gray;
+	opacity: .5;
+	margin-top: 0px;
+	box-shadow: 0px 3px 15px 3px gray;
+}
+
+
+
+.leftPanel{
+	width: 25%;
+	height: 100px;
+	border-right: 5px black;
+}
 
 
 
